@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Leju SVNPub Helper",
+  "description": "Leju SVNPub Helper",
+  "version": "1.0",
+  "permissions": [
+    "*://svnpub.intra.leju.com/"
+  ],
+  
+  "icons": {
+    "128": "icon128.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["http://svnpub.intra.leju.com/*"],
+      "js": ["helper.js"],
+      "all_frames": true
+    }
+  ]
+}
