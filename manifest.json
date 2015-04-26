@@ -15,6 +15,7 @@
     {
       "matches": ["http://svnpub.intra.leju.com/*"],
       "js": ["helper.js"],
+      "css": ["helper.css"],
       "all_frames": true
     }
   ]
